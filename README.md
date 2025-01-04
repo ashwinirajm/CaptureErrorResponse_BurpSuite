@@ -4,7 +4,7 @@
 1. errorResponseExtension.py records the response in a .txt file whenever there is an api failure
 2. sendToSlack.sh when executed will post the data from the .txt file to a slack channel
 
-During the execution of the Test Suite, BurpSuite monitors all API calls being made.
+During the execution of the Automation Test Suite, BurpSuite monitors all API calls being made.
 Failures can sometimes occur due to backend (BE) issues, leading to API errors that cause the scripts to fail.
 By recording error responses in the .txt file, this setup aids in identifying the root cause of API failures, streamlining debugging and issue resolution.
 
