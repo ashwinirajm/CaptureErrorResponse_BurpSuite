@@ -18,7 +18,7 @@ class BurpExtender(IBurpExtender, IProxyListener):
         callbacks.registerProxyListener(self)
 
         
-        self.file_path = "/Users/ashwiniraj/Desktop/res.txt"
+        self.file_path = "/Users/ashwiniraj/Documents/burpSuiteFiles/recordErrorResponse.txt"
 
    
     def processProxyMessage(self, messageIsRequest, message):
